@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI画像生成の新常識 まとめ図解リンク集</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #0c0a18;
+            background-image: 
+                radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+                radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+                radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+                radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+            background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+            background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+            animation: stars 200s linear infinite;
+        }
+
+        @keyframes stars {
+            from { background-position: 0 0, 40px 60px, 130px 270px, 70px 100px; }
+            to { background-position: -10000px 5000px, -10000px 5000px, -10000px 5000px, -10000px 5000px; }
+        }
+
+        .font-orbitron {
+            font-family: 'Orbitron', sans-serif;
+        }
+        .card {
+            background: rgba(18, 16, 38, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.3);
+            border-color: rgba(139, 92, 246, 0.5);
+        }
+        .card-icon {
+            background: linear-gradient(145deg, rgba(139, 92, 246, 0.2), rgba(139, 92, 246, 0.05));
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c4b5fd;
+        }
+    </style>
+</head>
+<body class="text-gray-300">
+
+    <div class="container mx-auto px-4 py-12 md:py-20">
+
+        <header class="text-center mb-12 md:mb-20">
+            <h1 class="font-orbitron text-4xl md:text-6xl font-bold text-white tracking-widest mb-4">5分でできる！画像生成プロンプト最適化セミナー</h1>
+            <p class="text-lg md:text-xl text-purple-300">プロカメラマンが教えるAI画像生成の新常識</p>
+            <p class="text-base text-gray-400 mt-2">（2025年7月23日開催） 🔸 まとめ図解リンク集</p>
+            <p class="text-xs text-gray-500 mt-6 max-w-2xl mx-auto">※文字起こしデータを元に作成しているため、誤字脱字や情報の誤りなども含まれている可能性があります。予めご了承ください。</p>
+        </header>
+
+        <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card 1: Seminar Overview -->
+            <a href="./1-seminar-overview.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 16.382V5.618a1 1 0 00-1.447-.894L15 7m-6 3l6-3m0 0l-6-3m6 3l6 3" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">1. Seminar Overview</h2>
+                </div>
+                <p class="text-gray-400 text-sm">セミナーの全体像と学習のゴールを把握し、AI画像生成の本質を学ぶ旅を始めましょう。</p>
+            </a>
+
+            <!-- Card 2: Survival Strategy -->
+            <a href="./2-survival-strategy.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">2. Survival Strategy</h2>
+                </div>
+                <p class="text-gray-400 text-sm">日米の利用率格差から見えてくる危機的状況と、ビジュアル革命の波に乗る重要性を解説します。</p>
+            </a>
+
+            <!-- Card 3: Prompt Basics -->
+            <a href="./3-prompt-basics.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4M4 7v10l8 4" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">3. Prompt Basics</h2>
+                </div>
+                <p class="text-gray-400 text-sm">プロンプトは暗記不要。ChatGPTに作らせる新常識と、画像を構成する基本要素を学びます。</p>
+            </a>
+
+            <!-- Card 4: Prompt Advanced -->
+            <a href="./4-prompt-advanced.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l-3 3m6 0l-3 3m-3 12l-3 3m6 0l-3 3M12 21a9 9 0 110-18 9 9 0 010 18z" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">4. Prompt Advanced</h2>
+                </div>
+                <p class="text-gray-400 text-sm">視覚パーツの具現化フレームワークを使いこなし、より意図に沿った画像を生成するテクニックを解説。</p>
+            </a>
+
+            <!-- Card 5: Truth of Prompt -->
+            <a href="./5-truth-of-prompt.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 10l-2.5 2.5M10 10l2.5-2.5" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">5. The Truth of Prompt</h2>
+                </div>
+                <p class="text-gray-400 text-sm">「F値」はなぜ効かない？写真の物理法則とAIの原理の違いを理解し、プロンプトの無駄を省きます。</p>
+            </a>
+
+            <!-- Card 6: Decisive Difference -->
+            <a href="./6-decisive-difference.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">6. Decisive Difference</h2>
+                </div>
+                <p class="text-gray-400 text-sm">「Long Exposure」は効くのに「シャッタースピード」は効かない。具体的な作例でAIの限界を学びます。</p>
+            </a>
+
+            <!-- Card 7: Practical Use -->
+            <a href="./7-practical-use.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">7. Practical Use</h2>
+                </div>
+                <p class="text-gray-400 text-sm">MidjourneyとChatGPT、どちらを使うべき？ツールの個性を見抜き、具体的なシーンで活用する方法。</p>
+            </a>
+
+            <!-- Card 8: Realistic Approach -->
+            <a href="./8-realistic-approach.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">8. The Right Mindset</h2>
+                </div>
+                <p class="text-gray-400 text-sm">100点は目指さない。70-80点で満足する現実的なアプローチと、細部調整の技術を解説します。</p>
+            </a>
+
+            <!-- Card 9: Complete Guide -->
+            <a href="./9-complete-guide.html" class="card block rounded-2xl p-6">
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" /></svg>
+                    </div>
+                    <h2 class="font-orbitron text-xl font-bold text-white">9. Complete Guide</h2>
+                </div>
+                <p class="text-gray-400 text-sm">これまでの学びを全て統合。AI時代の生存戦略から、ツールの使い分け、成功マインドセットまでを復習。</p>
+            </a>
+
+        </main>
+
+        <footer class="text-center mt-12 md:mt-20 text-gray-500">
+            <p>&copy; 2025 MIRAICHIの図解まとめサイト. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
 
